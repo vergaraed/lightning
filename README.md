@@ -2,6 +2,14 @@
 
 c-lightning is a lightweight, highly customizable and [standard compliant][std] implementation of the Lightning Network protocol.
 
+
+## BlockchainBPI
+
+CryptReserve Node utlizes this or similar to create raw transaction unchained but signed by the parties to the deal
+Revisioned signed and offered as replacement (client(s)-user(s)).
+
+IPLD will manage the merkle dag node/link revisioning and using ipfs and cids for raw tx files and client/user id's, respectively.
+
 * [Getting Started](#getting-started)
     * [Installation](#installation)
     * [Starting lightningd](#starting-lightningd)
